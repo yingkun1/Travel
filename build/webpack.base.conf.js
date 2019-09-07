@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: yingkun
+ * @Date: 2019-09-07 15:06:46
+ * @LastEditors: yingkun
+ * @LastEditTime: 2019-09-07 16:27:15
+ */
 'use strict'
 const path = require('path')
 const utils = require('./utils')
@@ -40,7 +48,7 @@ module.exports = {
   },
   module: {
     rules: [
-      ...(config.dev.useEslint ? [createLintingRule()] : []),
+      // ...(config.dev.useEslint ? [createLintingRule()] : []),
       {
         test: /\.vue$/,
         loader: 'vue-loader',

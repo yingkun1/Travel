@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: yingkun
+ * @Date: 2019-09-07 15:06:46
+ * @LastEditors: yingkun
+ * @LastEditTime: 2019-09-07 16:25:29
+ */
 // https://eslint.org/docs/user-guide/configuring
 
 module.exports = {
@@ -24,6 +32,7 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-tabs': 'off'
   }
 }
