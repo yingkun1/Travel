@@ -4,15 +4,21 @@
  * @Author: yingkun
  * @Date: 2019-09-07 16:02:56
  * @LastEditors: yingkun
- * @LastEditTime: 2019-09-07 17:09:52
+ * @LastEditTime: 2019-09-07 17:44:07
  -->
 <template>
-    <div>home</div>
+    <div>
+        <home-header></home-header>
+    </div>
 </template>
 
 <script>
+import HomeHeader from './components/Header.vue'
 export default {
-    name:'Home'
+    name:'Home',
+    components:{
+        HomeHeader,
+    }
 }
 </script>
 
